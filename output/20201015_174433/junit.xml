@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20201015_174433" timestamp="2020-10-15T17:44:33" time="49.513" tests="12" errors="0">
+  <testsuite id="1" name="MyNexial2Demo" package="MyNexial2Demo" hostname="ATMECSINLT-135" timestamp="2020-10-15T17:44:38" time="41.896" tests="12" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-135" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="mayur.patil" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyNexial2Demo.xlsx" />
+      <property name="Logs" value="C:\projects\MyNexial2Demo\output\20201015_174433\logs\nexial-20201015_174433.log" />
+      <property name="Data File" value="MyNexial2Demo.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2020-10-15T17:44:41" time="38.998">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\MyNexial2Demo\output\20201015_174433\MyNexial2Demo.20201015_174438.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20201015_174433\logs\nexial-20201015_174433.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="Scenario" timestamp="2020-10-15T17:44:42" time="37.824">
+      <system-out>Total : 8
+Passed: 8
+Failed: 0
+Output: C:\projects\MyNexial2Demo\output\20201015_174433\MyNexial2Demo.20201015_174438.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20201015_174433\logs\nexial-20201015_174433.log</system-out>
+    </testcase>
+    <testcase id="Activity 3" name="Activity 3" classname="Scenario" timestamp="2020-10-15T17:45:16" time="3.894">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\MyNexial2Demo\output\20201015_174433\MyNexial2Demo.20201015_174438.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20201015_174433\logs\nexial-20201015_174433.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

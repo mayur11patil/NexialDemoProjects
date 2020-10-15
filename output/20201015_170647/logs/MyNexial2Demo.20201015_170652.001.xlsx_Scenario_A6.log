@@ -1,0 +1,60 @@
+Nexial Version:    nexial-core 3.0_0816
+Current Timestamp: 2020-10-15 17:07:18.361
+Test Step:         [MyNexial2Demo.20201015_170652.001.xlsx][Scenario][Activity 2][ROW   6][web][open(url)]
+--------------------------------------------------------------------------------
+java.lang.RuntimeException: Error initializing browser 'firefox': WebDriverException: Access is denied. (os error 5)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-135', ip: '192.168.67.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at org.nexial.core.plugins.web.Browser.init(Browser.java:385)
+	at org.nexial.core.plugins.web.Browser.ensureWebDriverReady(Browser.java:289)
+	at org.nexial.core.model.PluginManager.initBrowser(PluginManager.java:138)
+	at org.nexial.core.model.PluginManager.getPlugin(PluginManager.java:116)
+	at org.nexial.core.model.ExecutionContext.findPlugin(ExecutionContext.java:395)
+	at org.nexial.core.model.TestStep.invokeCommand(TestStep.java:332)
+	at org.nexial.core.model.TestStep.execute(TestStep.java:172)
+	at org.nexial.core.model.TestCase.execute(TestCase.java:91)
+	at org.nexial.core.model.TestScenario.execute(TestScenario.java:129)
+	at org.nexial.core.model.ExecutionContext.execute(ExecutionContext.java:1266)
+	at org.nexial.core.ExecutionThread.run(ExecutionThread.java:183)
+Caused by: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Access is denied. (os error 5)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-135', ip: '192.168.67.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at org.nexial.core.plugins.web.Browser.initFirefox(Browser.java:812)
+	at org.nexial.core.plugins.web.Browser.init(Browser.java:370)
+	... 10 more
+Caused by: org.openqa.selenium.WebDriverException: Access is denied. (os error 5)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-135', ip: '192.168.67.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.nexial.core.plugins.web.Browser.initFirefox(Browser.java:804)
+	... 11 more
+

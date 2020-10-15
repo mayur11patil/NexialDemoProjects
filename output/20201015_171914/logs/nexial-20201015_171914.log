@@ -1,0 +1,114 @@
+2020-10-15 17:19:14,598|I|Thread-1|(DELAYED) nexial-core 3.0_0816 starting up...
+2020-10-15 17:19:14,606|I|Thread-1|(DELAYED) cleaning up outdated temp files...
+2020-10-15 17:19:14,606|I|Thread-1|(DELAYED) data file resolved as C:\Users\MAYUR~1.PAT\AppData\Local\Temp\fewJT\MyNexial2Demo.data.xlsx
+2020-10-15 17:19:14,606|I|Thread-1|(DELAYED) input files and output directory resolved...
+2020-10-15 17:19:14,606|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2020-10-15 17:19:14,606|I|Thread-1|(DELAYED) [20201015_171914] [C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx] resolve RUN ID as 20201015_171914
+2020-10-15 17:19:14,606|I|Thread-1|(DELAYED) [20201015_171914] [C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx] new thread started
+2020-10-15 17:19:14,606|I|Thread-1|No predefined nexial-setup found
+2020-10-15 17:19:15,553|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2020-10-15 17:19:15,553|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2020-10-15 17:19:15,553|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2020-10-15 17:19:16,308|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2020-10-15 17:19:18,342|I|Thread-1|On-Demand Inspection detection enabled
+2020-10-15 17:19:18,342|I|Thread-1|[20201015_171914] executing C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx with 1 iteration(s)
+2020-10-15 17:19:18,350|I|Thread-1|[20201015_171914] create directory C:\projects\MyNexial2Demo\output\20201015_171914\captures
+2020-10-15 17:19:18,350|I|Thread-1|[20201015_171914] create directory C:\projects\MyNexial2Demo\output\20201015_171914\logs
+2020-10-15 17:19:19,298|I|Thread-1|[20201015_171914] merging test data to tmp file C:\projects\MyNexial2Demo\output\20201015_171914\MyNexial2Demo.20201015_171918.001.xlsx
+2020-10-15 17:19:19,306|I|Thread-1|refetch data from C:\projects\MyNexial2Demo\artifact\data\MyNexial2Demo.data.xlsx
+2020-10-15 17:19:19,740|I|Thread-1|[20201015_171914] test script and test data merged to C:\projects\MyNexial2Demo\output\20201015_171914\MyNexial2Demo.20201015_171918.001.xlsx
+2020-10-15 17:19:20,707|I|Thread-1|STARTS
+2020-10-15 17:19:20,749|I|Thread-1|MyNexial2Demo.20201015_171918.001 - executing iteration #1 of 1; Iteration Id 1
+2020-10-15 17:19:20,763|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario - executing test scenario
+2020-10-15 17:19:20,763|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 1 - executing activity
+2020-10-15 17:19:21,365|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 1|#  5|base.verbose(text) - executing verbose(text)(Hello World! It's now $(sysdate|now|yyyy-MM-dd HH:mm:ss.S))
+2020-10-15 17:19:21,565|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 1|#  5|base.verbose(text) - Hello World! It's now 2020-10-15 17:19:21.405
+2020-10-15 17:19:21,797|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 1|#  5|base.verbose(text) - PASS 
+2020-10-15 17:19:21,797|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2 - executing activity
+2020-10-15 17:19:22,402|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  6|web.open(url) - executing open(url)(https://opensource-demo.orangehrmlive.com/)
+2020-10-15 17:19:22,482|I|Thread-1|No valid instance of webdriver, initializing...
+2020-10-15 17:19:22,490|I|Thread-1|init firefox
+2020-10-15 17:19:30,887|I|Thread-1|browser initialization completed for 'firefox'
+2020-10-15 17:19:30,951|I|Thread-1|setting browser page load timeout to 15000 ms
+2020-10-15 17:19:30,967|I|Thread-1|setting browser polling wait time to 800 ms
+2020-10-15 17:19:43,323|I|Thread-1|current browser window handle:8
+2020-10-15 17:19:43,451|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  6|web.open(url) - PASS opened URL https://opensource-demo.orangehrmlive.com/
+2020-10-15 17:19:44,064|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  7|web.click(locator) - executing click(locator)(//input[@id='txtUsername'])
+2020-10-15 17:19:44,140|I|Thread-1|clicking '//input[@id='txtUsername']'...
+2020-10-15 17:19:44,172|I|Thread-1|click target via JS, @id=txtUsername
+2020-10-15 17:19:44,204|I|Thread-1|clicked -> true
+2020-10-15 17:19:44,212|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  7|web.click(locator) - PASS click via JS event
+2020-10-15 17:19:44,820|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  8|web.type(locator,value) - executing type(locator,value)(//input[@id='txtUsername'], Admin)
+2020-10-15 17:19:45,060|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  8|web.type(locator,value) - PASS typed text at '//input[@id='txtUsername']'
+2020-10-15 17:19:45,669|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  9|web.click(locator) - executing click(locator)(//input[@id='txtPassword'])
+2020-10-15 17:19:45,685|I|Thread-1|clicking '//input[@id='txtPassword']'...
+2020-10-15 17:19:45,709|I|Thread-1|click target via JS, @id=txtPassword
+2020-10-15 17:19:45,741|I|Thread-1|clicked -> true
+2020-10-15 17:19:45,741|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|#  9|web.click(locator) - PASS click via JS event
+2020-10-15 17:19:46,346|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|# 10|web.type(locator,value) - executing type(locator,value)(//input[@id='txtPassword'], admin123)
+2020-10-15 17:19:46,467|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|# 10|web.type(locator,value) - PASS typed text at '//input[@id='txtPassword']'
+2020-10-15 17:19:47,067|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|# 11|web.click(locator) - executing click(locator)(//input[@id='btnLogin'])
+2020-10-15 17:19:47,083|I|Thread-1|clicking '//input[@id='btnLogin']'...
+2020-10-15 17:19:47,107|I|Thread-1|click target via JS, @id=btnLogin
+2020-10-15 17:19:47,147|I|Thread-1|clicked -> true
+2020-10-15 17:19:47,155|I|Thread-1|MyNexial2Demo.20201015_171918.001|Scenario|Activity 2|# 11|web.click(locator) - PASS click via JS event
+2020-10-15 17:19:47,357|I|Thread-1|[MyNexial2Demo.20201015_171918.001|Scenario] saving test scenario
+2020-10-15 17:19:47,750|I|Thread-1|[20201015_171914] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\MyNexial2Demo\output\20201015_171914\MyNexial2Demo.20201015_171918.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 26993 ms
+» Test Steps:     7
+» Error(s):       0
+
+
+
+2020-10-15 17:19:50,966|I|Thread-1|[20201015_171914] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 36655 ms
+» Iterations:     [1] total 1
+» Test Steps:     7
+» Passed:         7
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\MyNexial2Demo\output\20201015_171914\MyNexial2Demo.20201015_171918.001.xlsx
+
+
+
+2020-10-15 17:19:50,974|I|Thread-1|nexial mailer not enabled: nexial.enableEmail=false
+2020-10-15 17:19:51,370|I|main|[20201015_171914] [C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx] now completed
+2020-10-15 17:19:51,370|I|main|[20201015_171914] all execution thread(s) have terminated
+2020-10-15 17:19:51,370|I|main|[20201015_171914] test run completed in about 37 seconds
+2020-10-15 17:19:51,530|I|main|No predefined nexial-setup found
+2020-10-15 17:19:51,616|I|main|outputBase not set; output-to-cloud DISABLED!
+2020-10-15 17:19:51,616|I|main|accessKey not set; output-to-cloud DISABLED!
+2020-10-15 17:19:51,616|I|main|secretKey not set; output-to-cloud DISABLED!
+2020-10-15 17:19:51,616|I|main|generating HTML output for this execution to C:\projects\MyNexial2Demo\output\20201015_171914\execution-output.html
+2020-10-15 17:19:52,787|I|main|generating JUnit XML output for this execution to C:\projects\MyNexial2Demo\output\20201015_171914\junit.xml
+2020-10-15 17:19:52,867|I|main|generated JUnit report for this execution: C:\projects\MyNexial2Demo\output\20201015_171914\junit.xml
+2020-10-15 17:19:52,891|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2020-10-15 17:19:52,899|I|main|skipped email notification as configured
+2020-10-15 17:19:52,899|I|main|exiting Nexial...
+2020-10-15 17:19:52,899|I|main|shutdown starts...
+2020-10-15 17:19:52,899|I|main|Shutting down 'firefox' webdriver...
+2020-10-15 17:19:53,911|I|main|Quits this driver, closing every associated window.
+2020-10-15 17:20:01,493|I|main|shutdown ends...
+2020-10-15 17:20:01,501|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 37 sec.
+| » Test Steps....: 7
+| » Passed........: 7
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 3.0_0816-
+
+2020-10-15 17:20:01,501|I|main|ALL PASSED!
+2020-10-15 17:20:01,501|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\MyNexial2Demo\output\20201015_171914
+NEXIAL_EXECUTION_HTML: C:\projects\MyNexial2Demo\output\20201015_171914\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\MyNexial2Demo\output\20201015_171914\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

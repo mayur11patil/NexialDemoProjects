@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20200623_114912" timestamp="2020-06-23T11:49:12" time="58.219" tests="4" errors="0">
+  <testsuite id="1" name="MyNexial2Demo" package="MyNexial2Demo" hostname="ATMECSINLT-135" timestamp="2020-06-23T11:49:22" time="44.921" tests="4" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-135" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="mayur.patil" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyNexial2Demo.xlsx" />
+      <property name="Logs" value="C:\projects\MyNexial2Demo\output\20200623_114912\logs\nexial-20200623_114912.log" />
+      <property name="Data File" value="MyNexial2Demo.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2020-06-23T11:49:25" time="41.190">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\MyNexial2Demo\output\20200623_114912\MyNexial2Demo.20200623_114922.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20200623_114912\logs\nexial-20200623_114912.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="Scenario" timestamp="2020-06-23T11:49:27" time="39.565">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\MyNexial2Demo\output\20200623_114912\MyNexial2Demo.20200623_114922.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20200623_114912\logs\nexial-20200623_114912.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+Nexial Version:    nexial-core 3.0_0816
+Current Timestamp: 2020-06-24 16:35:56.539
+Test Step:         [MyNexial2Demo.20200624_163531.001.xlsx][Scenario][Activity 2][ROW  13][web][assertText(locator,text)]
+--------------------------------------------------------------------------------
+
+expected=Welcome Admin
+actual  =<null/undefined>

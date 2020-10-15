@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20201015_170816" timestamp="2020-10-15T17:08:16" time="42.647" tests="9" errors="2">
+  <testsuite id="1" name="MyNexial2Demo" package="MyNexial2Demo" hostname="ATMECSINLT-135" timestamp="2020-10-15T17:08:20" time="35.458" tests="9" errors="2">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-135" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="mayur.patil" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyNexial2Demo.xlsx" />
+      <property name="MyNexial2Demo.20201015_170820.001.xlsx_Scenario_A13.log" value="C:\projects\MyNexial2Demo\output\20201015_170816\logs\MyNexial2Demo.20201015_170820.001.xlsx_Scenario_A13.log" />
+      <property name="Logs" value="C:\projects\MyNexial2Demo\output\20201015_170816\logs\nexial-20201015_170816.log" />
+      <property name="Data File" value="MyNexial2Demo.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\MyNexial2Demo\artifact\script\MyNexial2Demo.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2020-10-15T17:08:23" time="32.527">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\MyNexial2Demo\output\20201015_170816\MyNexial2Demo.20201015_170820.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20201015_170816\logs\nexial-20201015_170816.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="Scenario" timestamp="2020-10-15T17:08:24" time="31.410">
+      <failure type="failure found in test activity" message="2 of 8 FAILED. Check C:\projects\MyNexial2Demo\output\20201015_170816\MyNexial2Demo.20201015_170820.001.xlsx for execution result, C:\projects\MyNexial2Demo\output\20201015_170816\logs\nexial-20201015_170816.log for execution logs" />
+      <system-out>Total : 8
+Passed: 6
+Failed: 2
+Output: C:\projects\MyNexial2Demo\output\20201015_170816\MyNexial2Demo.20201015_170820.001.xlsx
+Logs  : C:\projects\MyNexial2Demo\output\20201015_170816\logs\nexial-20201015_170816.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
